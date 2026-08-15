@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="ht">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>❤️ Heart OFFICIEL Store 🇭🇹</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f5f5f7;
+    color:#111827;
+}
+
+header{
+    background:linear-gradient(135deg,#111827,#991b1b);
+    color:white;
+    padding:18px;
+    position:sticky;
+    top:0;
+    z-index:100;
+    box-shadow:0 4px 15px #0004;
+}
+
+.header{
+    max-width:1100px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:20px;
+    font-weight:bold;
+}
+
+.menu{
+    display:flex;
+    gap:18px;
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    font-size:14px;
+}
+
+.hero{
+    text-align:center;
+    padding:70px 20px;
+    background:linear-gradient(135deg,#fee2e2,#ffffff,#dbeafe);
+}
+
+.hero h1{
+    font-size:42px;
+    margin-bottom:12px;
+}
+
+.hero p{
+    color:#4b5563;
+    font-size:18px;
+    margin-bottom:25px;
+}
+
+.button{
+    display:inline-block;
+    background:#dc2626;
+    color:white;
+    padding:13px 25px;
+    border-radius:12px;
+    text-decoration:none;
+    font-weight:bold;
+    border:none;
+    cursor:pointer;
+}
+
+.container{
+    width:92%;
+    max-width:1100px;
+    margin:auto;
+}
+
+section{
+    padding:45px 0;
+}
+
+.title{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.title h2{
+    font-size:30px;
+}
+
+.title p{
+    color:#6b7280;
+    margin-top:7px;
+}
+
+.categories{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(130px,1fr));
+    gap:12px;
+}
+
+.category{
+    background:white;
+    padding:20px 10px;
+    text-align:center;
+    border-radius:15px;
+    box-shadow:0 4px 15px #00000010;
+    font-weight:bold;
+    border:1px solid #eee;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:18px;
+}
+
+.product{
+    background:white;
+    padding:20px;
+    border-radius:18px;
+    box-shadow:0 5px 18px #00000010;
+    border:1px solid #eee;
+}
+
+.product-icon{
+    font-size:38px;
+    margin-bottom:12px;
+}
+
+.product h3{
+    margin-bottom:8px;
+}
+
+.product p{
+    color:#6b7280;
+    font-size:14px;
+    min-height:40px;
+}
+
+.price{
+    font-size:21px;
+    font-weight:bold;
+    margin:16px 0;
+}
+
+.buy{
+    width:100%;
+}
+
+.features{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:15px;
+}
+
+.feature{
+    background:#111827;
+    color:white;
+    padding:25px;
+    border-radius:18px;
+}
+
+.feature-icon{
+    font-size:30px;
+    margin-bottom:10px;
+}
+
+footer{
+    background:#111827;
+    color:white;
+    text-align:center;
+    padding:35px 20px;
+}
+
+.notice{
+    text-align:center;
+    color:#6b7280;
+    font-size:12px;
+    margin-top:25px;
+}
+
+@media(max-width:650px){
+
+    .header{
+        flex-direction:column;
+        gap:12px;
+    }
+
+    .menu{
+        gap:10px;
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    .hero h1{
+        font-size:32px;
+    }
+
+    .products{
+        grid-template-columns:1fr 1fr;
+    }
+
+}
+
+@media(max-width:420px){
+
+    .products{
+        grid-template-columns:1fr;
+    }
+
+}
+</style>
+</head>
+
+
+<body>
+
+<!-- HEADER -->
+
+<header>
+
+<div class="header">
+
+<div class="logo">
+❤️ Heart OFFICIEL 🇭🇹
+</div>
+
+<nav class="menu">
+<a href="#home">Home</a>
+<a href="#shop">Shop</a>
+<a href="#categories">Categories</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</div>
+
+</header>
+
+
+<!-- HOME -->
+
+<section class="hero" id="home">
+
+<div class="container">
+
+<h1>❤️ Heart OFFICIEL Store</h1>
+
+<p>
+Digital Services Marketplace 🇭🇹
+</p>
+
+<a href="#shop" class="button">
+🛒 Explore Store
+</a>
+
+</div>
+
+</section>
+
+
+<!-- CATEGORIES -->
+
+<section id="categories">
+
+<div class="container">
+
+<div class="title">
+
+<h2>📂 Categories</h2>
+
+<p>
+Chwazi kategori ou bezwen an
+</p>
+
+</div>
+
+
+<div class="categories">
+
+<div class="category">
+🎮<br>
+Gaming
+</div>
+
+<div class="category">
+📺<br>
+Streaming
+</div>
+
+<div class="category">
+💳<br>
+Finance
+</div>
+
+<div class="category">
+📱<br>
+Social Media
+</div>
+
+<div class="category">
+📧<br>
+Accounts
+</div>
+
+<div class="category">
+☁️<br>
+Cloud & AI
+</div>
+
+<div class="category">
+🛒<br>
+Gift Cards
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- SHOP -->
+
+<section id="shop">
+
+<div class="container">
+
+<div class="title">
+
+<h2>🔥 Popular Products</h2>
+
+<p>
+Chwazi yon pwodwi pou kòmande
+</p>
+
+</div>
+
+
+<div class="products">
+
+
+<!-- FREE FIRE -->
+
+<div class="product">
+
+<div class="product-icon">
+💎
+</div>
+
+<h3>
+Free Fire Top-Up
+</h3>
+
+<p>
+Diamond packages pou Free Fire.
+</p>
+
+<div class="price">
+Apati 100 HTG
+</div>
+
+<button class="button buy"
+onclick="buyProduct('Free Fire Top-Up')">
+
+Buy Now
+
+</button>
+
+</div>
+
+
+<!-- NETFLIX -->
+
+<div class="product">
+
+<div class="product-icon">
+🎬
+</div>
+
+<h3>
+Netflix
+</h3>
+
+<p>
+Plan streaming selon disponiblite.
+</p>
+
+<div class="price">
+Apati 500 HTG
+</div>
+
+<button class="button buy"
+onclick="buyProduct('Netflix')">
+
+Buy Now
+
+</button>
+
+</div>
+
+
+<!-- CAPCUT -->
+
+<div class="product">
+
+<div class="product-icon">
+✂️
+</div>
+
+<h3>
+CapCut Pro
+</h3>
+
+<p>
+Abònman Pro selon plan disponib.
+</p>
+
+<div class="price">
+Apati 350 HTG
+</div>
+
+<button class="button buy"
+onclick="buyProduct('CapCut Pro')">
+
+Buy Now
+
+</button>
+
+</div>
+
+
+<!-- SPOTIFY -->
+
+<div class="product">
+
+<div class="product-icon">
+🎵
+</div>
+
+<h3>
+Spotify Premium
+</h3>
+
+<p>
+Mizik Premium selon plan.
+</p>
+
+<div class="price">
+Apati 350 HTG
+</div>
+
+<button class="button buy"
+onclick="buyProduct('Spotify Premium')">
+
+Buy Now
+
+</button>
+
+</div>
+
+
+<!-- YOUTUBE -->
+
+<div class="product">
+
+<div class="product-icon">
+▶️
+</div>
+
+<h3>
+YouTube Premium
+</h3>
+
+<p>
+YouTube Premium selon plan.
+</p>
+
+<div class="price">
+Apati 400 HTG
+</div>
+
+<button class="button buy"
+onclick="buyProduct('YouTube Premium')">
+
+Buy Now
+
+</button>
+
+</div>
+
+
+<!-- CHATGPT -->
+
+<div class="product">
+
+<div class="product-icon">
+🤖
+</div>
+
+<h3>
+ChatGPT Plus
+</h3>
+
+<p>
+Plan ofisyèl selon disponiblite.
+</p>
+
+<div class="price">
+Verifye pri
+</div>
+
+<button class="button buy"
+onclick="buyProduct('ChatGPT Plus')">
+
+Buy Now
+
+</button>
+
+</div>
+
+
+<!-- CANVA -->
+
+<div class="product">
+
+<div class="product-icon">
+💎
+</div>
+
+<h3>
+Canva Pro
+</h3>
+
+<p>
+Abònman Canva Pro.
+</p>
+
+<div class="price">
+Apati 400 HTG
+</div>
+
+<button class="button buy"
+onclick="buyProduct('Canva Pro')">
+
+Buy Now
+
+</button>
+
+</div>
+
+
+<!-- APPLE -->
+
+<div class="product">
+
+<div class="product-icon">
+🍎
+</div>
+
+<h3>
+Apple Gift Card
+</h3>
+
+<p>
+Gift card nan plizyè montan.
+</p>
+
+<div class="price">
+Apati 950 HTG
+</div>
+
+<button class="button buy"
+onclick="buyProduct('Apple Gift Card')">
+
+Buy Now
+
+</button>
+
+</div>
+
+
+<!-- PLAYSTATION -->
+
+<div class="product">
+
+<div class="product-icon">
+🎮
+</div>
+
+<h3>
+PlayStation Gift Card
+</h3>
+
+<p>
+Gift card pou PlayStation.
+</p>
+
+<div class="price">
+Apati 1,900 HTG
+</div>
+
+<button class="button buy"
+onclick="buyProduct('PlayStation Gift Card')">
+
+Buy Now
+
+</button>
+
+</div>
+
+
+<!-- ROBLOX -->
+
+<div class="product">
+
+<div class="product-icon">
+🎮
+</div>
+
+<h3>
+Roblox Gift Card
+</h3>
+
+<p>
+Gift card Roblox.
+</p>
+
+<div class="price">
+Apati 950 HTG
+</div>
+
+<button class="button buy"
+onclick="buyProduct('Roblox Gift Card')">
+
+Buy Now
+
+</button>
+
+</div>
+
+
+</div>
+
+
+<div class="notice">
+
+⚠️ Pri yo se egzanp. Pri final yo ka chanje selon taux,
+stock ak founisè yo.
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- FEATURES -->
+
+<section>
+
+<div class="container">
+
+<div class="features">
+
+<div class="feature">
+
+<div class="feature-icon">
+⚡
+</div>
+
+<h3>
+Fast Delivery
+</h3>
+
+<p>
+Nou trete kòmand yo rapidman.
+</p>
+
+</div>
+
+
+<div class="feature">
+
+<div class="feature-icon">
+🔒
+</div>
+
+<h3>
+Secure Service
+</h3>
+
+<p>
+Sèvis ak peman an sekirite.
+</p>
+
+</div>
+
+
+<div class="feature">
+
+<div class="feature-icon">
+💬
+</div>
+
+<h3>
+Customer Support
+</h3>
+
+<p>
+Kontakte nou pou asistans.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer id="contact">
+
+<h3>
+❤️ Heart OFFICIEL Store 🇭🇹
+</h3>
+
+<p>
+Digital Services Marketplace
+</p>
+
+<p style="margin-top:12px;">
+📱 WhatsApp • Telegram • TikTok
+</p>
+
+<p style="margin-top:15px;font-size:13px;">
+© 2026 Heart OFFICIEL Store
+</p>
+
+</footer>
+
+
+<script>
+
+function buyProduct(product){
+
+alert(
+"❤️ Heart OFFICIEL Store\n\n"+
+"Ou chwazi: "+product+
+"\n\n"+
+"Checkout ap disponib nan pwochen vèsyon an."
+);
+
+}
+
+</script>
+
+</body>
+</html>
